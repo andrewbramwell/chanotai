@@ -1,15 +1,15 @@
 {
 	"name": "Chanotai Massage",
-	"email": "help@codestitch.app",
-	"phoneForTel": "555-779-4407",
-	"phoneFormatted": "(555) 779-4407",
+	"email": "helo@chanotaimassage.co.uk",
+	"phoneForTel": "+447743021487",
+	"phoneFormatted": "07743 021487",
 	"address": {
-		"lineOne": "First Address Line",
-		"lineTwo": "Second Address Line",
-		"city": "Farnworth",
-		"state": "England",
-		"zip": "BL4",
-		"mapLink": "https://goo.gl/maps/UAQn4vuGDiwv7DV39"
+		"lineOne": "32 Higher Market St",
+		"lineTwo": "Farnworth",
+		"city": "Bolton",
+		"state": "",
+		"zip": "BL4 9AJ",
+		"mapLink": "https://maps.app.goo.gl/LVsvHxZr5FZGXXsR7"
 	},
 	"domain": "chanotaimassage.co.uk"
 }

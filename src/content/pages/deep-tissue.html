@@ -1,0 +1,83 @@
+---
+title: 'Deep Tissue Massage'
+description: 'Experience authentic Thai massage at A Touch of Thai. Delve into a holistic journey of relaxation, enhanced flexibility, and traditional rejuvenation techniques.'
+preloadImg: '/assets/images/int-hero.webp'
+permalink: 'deep-tissue/'
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/treatments.css">
+{% endblock %}
+
+{% block body %}
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Deep Tissue</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/deep-tissue/" class="cs-link cs-active">Deep Tissue</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/int-hero-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
+        <img decoding="async" src="/assets/images/int-hero.webp" alt="massage oil" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+                                
+
+<section id="content-page-713">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Deep Tissue Massage in Farnworth, Bolton</span></h1>
+            <p>
+                Delve into the therapeutic power of deep tissue massage at Chanotai Massage in Farnworth, Bolton. An antidote to chronic tension, deep tissue massage employs firm pressure and slow strokes to target the inner layers of your muscles and connective tissues. By focusing on areas of tension and pain, it helps to break up scar tissue that forms following injuries and diminish muscle tension.
+            </p>
+            <p>
+                During your deep tissue massage session, our certified therapists, with their profound knowledge and training, will use their fingers, hands, and even elbows to apply sustained pressure. This pressure reaches the deepest layers of muscle tissue, tendons, and fascia. Through precise techniques, muscle knots are released, promoting healing, enhancing circulation, and offering relief from chronic pain.
+            </p>
+            <p>
+                Deep tissue massage has become a cornerstone of therapeutic treatments, cherished by athletes, professionals, and everyday individuals alike. Whether you’re addressing specific pain points or seeking an oasis of relaxation, deep tissue massage offers profound physical and emotional benefits.
+            </p>
+            <h3>Benefits of Deep Tissue Massage</h3>
+            <ul>
+                <li><strong>Pain Alleviation:</strong> Focusing on deep-seated tension, this massage offers relief from chronic pain conditions, whether from posture issues, muscle strains, or injuries.</li>
+                <li><strong>Enhanced Circulation:</strong> Strokes and pressure in a deep tissue massage stimulate blood flow. The increased circulation delivers oxygen and nutrients, promoting healing and reducing inflammation.</li>
+                <li><strong>Increased Mobility:</strong> Deep tissue techniques release muscle adhesions and knots, enhancing flexibility and reducing stiffness, enabling a fuller range of motion.</li>
+                <li><strong>Stress Reduction:</strong> Beyond physical relief, the deep pressure induces a sense of calm, alleviating emotional stress and promoting a deep sense of relaxation.</li>
+                <li><strong>Recovery & Rehabilitation:</strong> Particularly beneficial for athletes or those recovering from injuries, deep tissue massage aids in the healing process, minimizing scar tissue and improving muscle health.</li>
+            </ul>
+            <p>
+                Discover the rejuvenating potential of deep tissue massage at Chanotai Massage, Farnworth, Bolton, and embrace a renewed sense of well-being and vitality.
+            </p>
+        </div>
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/deeptissue.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/deeptissue.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/deeptissue.webp" alt="person" width="570" height="680" aria-hidden="true">
+            </picture>
+        </div>
+    </div>
+    <!--Waves Graphic-->
+    <picture class="cs-background">
+        <img src="/assets/svgs/large-waves.svg" alt="waves" decoding="async" aria-hidden="true" width="625" height="952">
+    </picture>
+</section>
+                                
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

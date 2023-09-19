@@ -1,0 +1,127 @@
+---
+title: 'Our Story'
+description: 'Discover the inspiring journey of Joyce, from her beginnings in Sakhon Nakhon, Thailand, to her dedicated service as an NHS nurse, and the birth of Chanotai Massage.'
+preloadImg: '/assets/images/int-hero.webp'
+permalink: 'about/'
+eleventyNavigation:
+    parent: About
+    key: About Us
+    order: 210
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/about.css">
+{% endblock %}
+
+{% block body %}
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Our Story</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/about" class="cs-link cs-active">Our Story</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/int-hero-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
+        <img decoding="async" src="/assets/images/int-hero.webp" alt="massage oil" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+                                
+
+<!-- ============================================ -->
+<!--                Side By Side                  -->
+<!-- ============================================ -->
+
+<section id="sbs-867">
+    <div class="cs-container">
+        <picture class="cs-picture">
+            <!--Mobile Image-->
+            <source media="(max-width: 600px)" srcset="/assets/images/hero.webp">
+            <!--Tablet and above Image-->
+            <source media="(min-width: 601px)" srcset="/assets/images/hero.webp">
+            <img loading="lazy" decoding="async" src="/assets/images/hero.webp" alt="hero" width="630" height="775">
+        </picture>
+        <div class="cs-content">
+            <h1 class="cs-title">Journey to Healing: The Chanotai Legacy</h1>
+            <p>
+                Every establishment has its roots, and Chanotai's journey is intertwined with the inspiring life of Joyce. A passionate individual, Joyce hailed from Sakhon Nakhon in Northeast Thailand, where she initially began her medical career as a nurse. Her dedication and skill were evident even back then.
+            </p>
+            <p>
+                Drawn by the allure of new experiences and opportunities, Joyce decided to move to the UK. For twenty years, she made it her home, embracing the rich culture and diversity the country had to offer. Her medical background found her an esteemed role within the NHS, where she served diligently as an operating room nurse, ensuring patients received the utmost care during critical moments.
+            </p>
+            <p>
+                But, the call of her homeland, with its age-old traditions and healing practices, was powerful. Joyce felt a pull towards the art of Thai massage, a therapy she believed could bring relief and tranquillity to many. With a brave heart, she returned to Thailand, dedicating six months to master the art of Thai massage and Tok Sen at the prestigious Wat Po institution.
+            </p>
+            <p>
+                2018 marked a transformative year for Joyce. She bid adieu to her commendable career with the NHS to chase a dream: opening her very own massage centre, Chanotai Massage. Starting as a solo venture, it wasn't long before Chanotai's reputation grew, leading to the addition of three adept professionals under its banner.
+            </p>
+            <p>
+                Today, Chanotai Massage is not just a business but a reflection of Joyce's passion, determination, and belief in the healing power of Thai therapies. We warmly invite you to immerse yourself in our story and discover the wonders of genuine Thai massage at Chanotai.
+            </p>
+        </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ============================================ -->
+<!--                Meet The Team                 -->
+<!-- ============================================ -->
+
+<!--<section id="meet-team-860">
+    <div class="cs-container">
+        <div class="cs-content">
+            <div class="cs-flex">
+                <span class="cs-topper">Our Expert Team</span>
+                <h2 class="cs-title">Meet The Team Behind Their Success Story</h2>
+            </div>
+            <a href="" class="cs-button-solid">View All Members</a>
+        </div>
+        <ul class="cs-card-group">
+            <li class="cs-item">
+                <picture class="cs-picture">
+                   
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson1.jpg">
+                    
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson1.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson1.jpg" alt="person" width="305" height="407">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Arlene MacCoy</span>
+                    <span class="cs-job">Aesthetic Expert</span>
+                </div>
+            </li>
+            <li class="cs-item">
+                <picture class="cs-picture">
+                    
+                    <source media="(max-width: 600px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson2.jpg">
+                    
+                    <source media="(min-width: 601px)" srcset="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson2.jpg">
+                    <img loading="lazy" decoding="async" src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images%2FPeople%2Fperson2.jpg" alt="person" width="305" height="407">
+                </picture>
+                <div class="cs-info">
+                    <span class="cs-name">Arlene MacCoy</span>
+                    <span class="cs-job">Aesthetic Expert</span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>-->
+
+
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

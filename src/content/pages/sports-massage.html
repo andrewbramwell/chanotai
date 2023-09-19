@@ -1,0 +1,83 @@
+---
+title: 'Sports Massage'
+description: 'Elevate athletic performance with sports massage at Chanotai Massage in Farnworth, Bolton. Tailored for athletes, our treatments promote recovery, flexibility, and injury prevention.'
+preloadImg: '/assets/images/int-hero.webp'
+permalink: 'sports-massage/'
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/treatments.css">
+{% endblock %}
+
+{% block body %}
+<!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Sports Massage</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/sports-massage/" class="cs-link cs-active">Sports Massage</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/int-hero-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
+        <img decoding="async" src="/assets/images/int-hero.webp" alt="massage oil" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+                                
+
+<section id="content-page-713">
+    <div class="cs-container">
+        <div class="cs-content">
+            <h1 class="cs-title"><span class="cs-color">Sports Massage in Farnworth, Bolton</span></h1>
+            <p>
+                Elevate your athletic performance and recovery at Chanotai Massage in Farnworth, Bolton, with our specialized sports massage treatments. Tailored to meet the unique needs of athletes and active individuals, sports massage combines various techniques to promote flexibility, reduce fatigue, improve endurance, and help prevent injuries. Whether you're training for an event, recovering from a sports-related injury, or seeking to maintain optimal physical condition, a sports massage offers targeted therapy that aligns with your active lifestyle.
+            </p>
+            <p>
+                During your sports massage session, our experienced therapists apply a blend of deep and light strokes, stretching, and muscle manipulation. This therapeutic approach addresses specific muscle groups, alleviating tension, improving blood flow, and assisting in the removal of waste products like lactic acid. By focusing on areas of the body that are overused and stressed from repetitive movements, sports massage aids in muscle repair and resilience.
+            </p>
+            <p>
+                The world of sports recognizes the pivotal role of sports massage, acknowledging its manifold contributions in enhancing athletic prowess and ensuring swift recovery.
+            </p>
+            <h3>Benefits of Sports Massage</h3>
+            <ul>
+                <li><strong>Optimized Performance:</strong> Through the targeted release of muscle tension and improved flexibility, athletes can achieve greater power and performance during training and events.</li>
+                <li><strong>Injury Prevention:</strong> Regular sports massages can help identify and address potential muscle imbalances and strains before they lead to injury, promoting longer, healthier athletic careers.</li>
+                <li><strong>Accelerated Recovery:</strong> By enhancing circulation and lymphatic drainage, sports massage aids in the swift elimination of toxins, reducing muscle soreness and shortening recovery times.</li>
+                <li><strong>Enhanced Flexibility:</strong> Specific stretches and manipulation techniques used during the massage improve muscle elasticity, resulting in a more agile and responsive physique.</li>
+                <li><strong>Mental Clarity and Relaxation:</strong> Beyond the physical realm, sports massage fosters a clear mind, helping athletes focus on their training and competitions while also promoting relaxation and stress relief.</li>
+            </ul>
+            <p>
+                Elevate your athletic journey with sports massage at Chanotai Massage, Farnworth, Bolton. Whether you're a professional athlete or a fitness enthusiast, our treatments provide the essential support for peak physical and mental performance.
+            </p>
+        </div>
+        <div class="cs-image-group">
+            <picture class="cs-picture">
+                <!--Mobile Image-->
+                <source media="(max-width: 600px)" srcset="/assets/images/sports.webp">
+                <!--Tablet and above Image-->
+                <source media="(min-width: 601px)" srcset="/assets/images/sports.webp">
+                <img loading="lazy" decoding="async" src="/assets/images/sports.webp" alt="person" width="570" height="680" aria-hidden="true">
+            </picture>
+        </div>
+    </div>
+    <!--Waves Graphic-->
+    <picture class="cs-background">
+        <img src="/assets/svgs/large-waves.svg" alt="waves" decoding="async" aria-hidden="true" width="625" height="952">
+    </picture>
+</section>
+                                
+                                
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

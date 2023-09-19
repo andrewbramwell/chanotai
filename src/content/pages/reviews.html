@@ -1,0 +1,138 @@
+---
+title: 'Reviews'
+description: "Discover testimonials from Chanotai Massage clients. Dive into their experiences with our authentic Thai massage and its transformative effects"
+preloadImg: '/assets/images/int-hero.webp'
+permalink: 'reviews/'
+eleventyNavigation:
+    parent: About
+    key: Reviews
+    order: 220
+---
+
+{% extends "layouts/base.html" %}
+
+{% block head %}
+    <link rel="stylesheet" href="/css/reviews.css">
+{% endblock %}
+
+{% block body %}
+
+ <!-- ============================================ -->
+<!--                   Banner                     -->
+<!-- ============================================ -->
+
+<div id="banner-1106">
+    <div class="cs-container">
+        <span class="cs-int-title">Reviews</span>
+        <div class="cs-breadcrumbs">
+            <a href="/" class="cs-link">Home</a>
+            <a href="/reviews/" class="cs-link cs-active">Reviews</a>
+        </div>
+    </div>
+    <!--Background Image-->
+    <picture class="cs-background">
+        <!--Mobile Image-->
+        <source media="(max-width: 600px)" srcset="/assets/images/int-hero-m.webp">
+        <!--Tablet and above Image-->
+        <source media="(min-width: 601px)" srcset="/assets/images/int-hero.webp">
+        <img decoding="async" src="/assets/images/int-hero.webp" alt="massage oil" width="1280" height="568" aria-hidden="true">
+    </picture>
+</div>
+
+    <!-- ============================================ -->
+    <!--                  Reviews                     -->
+    <!-- ============================================ -->
+
+    <section id="reviews">
+        <div class="container">
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    Me and my partner have just had our massage and it was perfect! Feel so much lighter and better even healthier after it! Was great for my first time, will highly recommend and will be back for a soft one next time. Already can’t wait!
+                </p>
+                <div class="star-group">
+                    <span class="name">Jay</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    I had Tok Sen here today, I've been suffering with back and shoulder pain for a while and some nerve numbness, even though it was intense for the hour treatment, I feel amazing afterwards, I will definitely be returning this women has performed magic, I would 💯 recommended this place 
+                </p>
+                <div class="star-group">
+                    <span class="name">Amy</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    I give this place 5 stars. I love the massage from this place. The staff really nice and gives good advice after massage. I have shoulder stiff she sort me out. It painful but after massage the results make me forget the pain. The place is very clean. Thank you for your hard work to fixed me.
+                </p>
+                <div class="star-group">
+                    <span class="name">Saowanee</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    I've struggled with lower back pain for many years now, I've tried chiropractors,  osteopaths and physios and they've all worked in their own way but this was far more rewarding. Emma really concentrated on my lower back but also on my legs, neck and shoulders. It was very relaxing. I would definitely recommend this to anyone.
+                </p>
+                <div class="star-group">
+                    <span class="name">Martin</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    Wow! I went to tonight and had the best massage it was different. I feel great would definately recommend this place if you like deep tissue massages and have lots of knots this is the place to go. I Will be booking in next week.
+                </p>
+                <div class="star-group">
+                    <span class="name">Rachel</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+            <div class="review">
+                <picture>
+                    <img class="profile" loading="lazy" decoding="async" src="/assets/svgs/profile-woman.svg" alt="" width="99" height="99">
+                </picture>
+                <p>
+                    Great massage today. I could barely move my neck and right shoulder without serious pain in both. 30 minutes and she got me moving alot more freely. Thanks for the excellent service. I would highly recommend!
+                </p>
+                <div class="star-group">
+                    <span class="name">Barney</span>
+                    <picture>
+                        <img aria-hidden="true" loading="lazy" decoding="async" src="/assets/svgs/stars.svg" alt="stars" width="91" height="15">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    {% include 'components/cta.html' %}
+
+{% endblock %}

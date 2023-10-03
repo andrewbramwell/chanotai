@@ -28,8 +28,8 @@
 
     <!-- Preloads -->
     <link rel="preload" as="image" href="/assets/svgs/logo-white.svg">
-    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-regular.woff2" crossorigin>
-    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/roboto-v29-latin-700.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/noto-sans-jp-v52-latin-regular.woff2" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="/assets/fonts/noto-sans-jp-v52-latin-700.woff2" crossorigin>
 
     <!-- Preload an image - tag not rendered if preloadImg is blank to stop console errors -->
     {% if preloadImg != '' %}
@@ -43,7 +43,15 @@
     <script defer src="/assets/js/dark.js"></script>
 
     {% block head %}{% endblock %}
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XDCRYV6TQT"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
+      gtag('config', 'G-XDCRYV6TQT');
+    </script>
     <title>
       {% if page.url == '/'%}
         {{ title }}

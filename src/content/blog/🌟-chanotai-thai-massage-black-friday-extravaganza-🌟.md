@@ -8,7 +8,7 @@ date: 2023-11-19T21:21:28.414Z
 tags:
   - post
   - featured
-image: /assets/images/blog/couple-massage.webp
+image: /assets/images/blog/couples.jpg
 imageAlt: " Couples Massage "
 ---
 Indulge in exclusive Black Friday bliss at Chanotai Thai Massage! Treat yourself or a loved one to rejuvenating treatments before December 10, 2023!

@@ -31,6 +31,6 @@ Revitalize your skin with a Body Scrub Treatment. Book now for an additional £5
 
 🌈 Exclusive Black Friday Offer: £5 off each treatment!
 Limited slots available – secure your pampering session now!
-📅 Book Your Blissful Experience [Here](https://chanotaimassage.setmore.com/?source=easyshare)
+Book Your Blissful Experience [Here](https://chanotaimassage.setmore.com/?source=easyshare)
 
 Terms and conditions apply. Book by December 10, 2023. Cannot be combined with other offers.

@@ -19,7 +19,7 @@ Indulge in exclusive Black Friday bliss at Chanotai Thai Massage! Treat yourself
    ✨ 90 mins for £70 ✨
    Unwind with our therapeutic Deep Tissue Massage. Book now and save £5 exclusively for Black Friday!
 
-## 2. Couples Massage
+## 2. Couples Massage (Relaxing/Soft To Medium Touch)
    ✨ 90 mins for £115 ✨
    Strengthen your bond with a tranquil Couples Massage. Don't miss out – get an extra £5 off this Black Friday!
 

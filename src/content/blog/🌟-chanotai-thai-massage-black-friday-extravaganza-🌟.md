@@ -17,19 +17,23 @@ Indulge in exclusive Black Friday bliss at Chanotai Thai Massage! Treat yourself
 
 ## 1. Deep Tissue Massage
    ✨ 90 mins for £70 ✨
-   Unwind with our therapeutic Deep Tissue Massage. Book now and save £5 exclusively for Black Friday!
+   Unwind with our therapeutic Deep Tissue Massage. 
 
 ## 2. Couples Massage (Relaxing/Soft To Medium Touch)
    ✨ 90 mins for £115 ✨
-   Strengthen your bond with a tranquil Couples Massage. Don't miss out – get an extra £5 off this Black Friday!
+   Strengthen your bond with a tranquil Couples Massage. 
 
-## 3. Hot Stone Massage
-   ✨ 90 mins for £75 ✨
-   Experience warmth and relaxation with a Hot Stone Massage. Secure your spot and enjoy £5 off this Black Friday!
+## 3. Couples Massage (Deep Tissue)
+   ✨ 90 mins for £135 ✨
+   Strengthen your bond with a tranquil Couples Massage. 
 
-## 4. Body Scrub Treatment
+## 4. Hot Stone Massage
    ✨ 90 mins for £75 ✨
-   Revitalize your skin with a Body Scrub Treatment. Book now for an additional £5 off this Black Friday!
+   Experience warmth and relaxation with a Hot Stone Massage. 
+
+## 5. Body Scrub Treatment
+   ✨ 90 mins for £75 ✨
+   Revitalize your skin with a Body Scrub Treatment. 
 
 🌈 **Exclusive Black Friday Offer: £5 off each treatment!**
 Limited slots available – secure your pampering session now!
